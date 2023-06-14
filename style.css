@@ -1,0 +1,268 @@
+/* RESET */
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+body {
+    background-color: #0e0e10;
+}
+
+/* HEADER */
+
+
+header {
+    width: 100%;
+    background-color: #18181b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    position: relative;
+    z-index: 1;
+    padding: 10px;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo img {
+    width: 30px;
+}
+
+
+.mais-info {
+    color: white;
+}
+
+.seguindo-procurar {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #fff;
+    gap: 10px;
+}
+
+
+.seguindo-procurar h2, img {
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.seguindo-procurar h2:hover {
+    color: gray;
+}
+
+
+/* NAVEGAÇÃO */
+
+.aba-navegacao {
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    position: relative;
+    height: 100%;
+    background-color: #1f1f23;
+}
+
+
+.container-canais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 6px;
+    gap: 15px;
+
+}
+
+
+
+.card-canal {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+    opacity: 1;
+    transition: 0.3s ease;
+    padding: 5px;
+
+}
+
+.card-canal:hover {
+    cursor: pointer;
+    border-radius: 2px;
+
+    opacity: 0.8;
+    background-color: #393941;
+
+}
+
+
+.pesquisa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button:focus {
+    outline: none;
+}
+
+button img {
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+}
+
+#butao-search {
+    width: 50px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: #2f2f35;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.pesquisa input {
+    height: 30px;
+    width: 250px;
+    color: white;
+    padding: 3px;
+    background-color: transparent;
+    border: 1px solid gray;
+}
+
+.tituloNav {
+    margin-left: 10px;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.tituloNav h2 {
+    font-size: 20px;
+}
+
+.tituloNav h3 {
+    font-size: 14px;
+}
+
+
+.imgDiv img {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    background-size: cover;
+}
+
+.nomeJogo h1 {
+    font-size: 16px;
+    color: #fff;
+}
+
+.nomeJogo p {
+    color: #fff;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.span-viwer {
+    position: absolute;
+    right: 0;
+    color: white;
+    margin: 10px;
+    font-size: 11px;
+}
+
+
+/* MAIN */
+
+main {
+    display: flex;
+
+    width: 100%;
+
+}
+
+.mais-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+
+.coroa, .box, .chat, .prisma {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 25px;
+    transition: 0.4s;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+.box:hover {
+    background-color: #0e0e10;
+}
+
+.prisma:hover {
+    background-color: #0e0e10;
+}
+
+.coroa:hover {
+    background-color: #0e0e10;
+}
+
+#hoverChat:hover {
+    background-color: #0e0e10;
+    padding: 5px;
+}
+
+#butao-assista {
+    background-color: #2f2f35;
+    color: #fff;
+    font-size: 17px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    transition: 0.4s;
+}
+
+
+#butao-assista:hover {
+    background-color: #09090a;
+}
+
+
+#profile-gamer {
+    width: 65px;
+    background-size: cover;
+    height: 50px;
+    border-radius:90%;
+    transition: 0.3s;
+}
+
+#profile-gamer:hover {
+opacity: 0.6;
+}
